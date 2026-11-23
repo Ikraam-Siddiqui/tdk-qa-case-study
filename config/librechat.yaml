@@ -1,0 +1,12 @@
+version: 1.2.1
+cache: true
+endpoints:
+  custom:
+    - name: "MockAI"
+      apiKey: "mock-key"
+      baseURL: "http://127.0.0.1:8000/v1"
+      models:
+        default: ["mock-gpt"]
+        fetch: false
+      titleConvo: false
+      modelDisplayLabel: "MockAI"
